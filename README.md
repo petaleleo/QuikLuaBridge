@@ -11,6 +11,8 @@
   * [Как это работает?](#Как-это-работает)
   
 LUA
+--------
+
 1. Нужен VisualStudio. Берём тут Community Version: https://visualstudio.microsoft.com/ru/
 2. Берём актуальную версию LUA для QUIK отсюда https://www.lua.org/ftp/#source
 3. Запускаем необходимо окружение компилятора из установленного VisualStudio: x64 Native Tools Command Prompt for VS 2022
