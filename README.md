@@ -18,6 +18,7 @@ LUA
 3. Запускаем необходимо окружение компилятора из установленного VisualStudio: x64 Native Tools Command Prompt for VS 2022
 4. Собираем Lua:
 
+```bat
 call cl /MD /O2 /c /DLUA_BUILD_AS_DLL src/*.c
 ren lua.obj lua.o
 ren luac.obj luac.o
@@ -28,3 +29,4 @@ link /OUT:luac.exe luac.o lua54-static.lib
 del *.obj
 del *.exp
 del *.o
+```
