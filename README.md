@@ -1,8 +1,8 @@
 # QuikLuaBridge
 Инструкция по настройке и компиляции ZeroMQ, Lua, Protobuf, Python, Quik
 
-Основано на https://github.com/Enfernuz/quik-lua-rpc/
-Компилируем/собираем всё сами.
+Основано на https://github.com/Enfernuz/quik-lua-rpc
+Компилируем и собираем всё сами.
 
 Содержание
 =================
