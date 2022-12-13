@@ -41,7 +41,7 @@ LUA-PROTOBUF
 Для работы и компиляции protobuf в LUA нужно получить pb.dll: 
 1. Проект берём тут: https://github.com/starwing/lua-protobuf
 2. Т.к. LUA в QUIK работает в двух потоках, а библиотека не учитывает это, то необходимо внести изменение в код в модуле pb.c:
-
+* синхронизация потоков такая себе, прямо скажем, но работает
 ```C
 #include <windows.h>
 static volatile int globCount=0;
