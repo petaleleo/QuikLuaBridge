@@ -78,9 +78,9 @@ static int Lpb_encode(lua_State *L) {
 ```
 
 
-3. Компилируем: 
+3. Компилируем (обязательно поправить пути к LUA): 
 ```bat
-cl /O2 /LD /Fpb.dll /DLUA_BUILD_AS_DLL /I "...\lua-5.4.1\src" pb.c log.c "....\lua-5.4.1\lua54.lib"
+cl /O2 /LD /Fpb.dll /DLUA_BUILD_AS_DLL /I "C:\lua-5.4.1\src" pb.c "C:\lua-5.4.1\lua54.lib"
 ```
 
 5. Полученный файл нужно скопировать в папку QUIK
