@@ -14,11 +14,11 @@
 
 LIBS
 --------
-lua.dll
-lua.lib
-lzmq.dll
-pb.dll
-libzmq.dll
++ lua.dll
++ lua.lib
++ lzmq.dll
++ pb.dll
++ libzmq.dll
 
 LUA
 --------
