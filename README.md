@@ -103,5 +103,5 @@ cl /O2 /LD /Fpb.dll /DLUA_BUILD_AS_DLL /I "C:\lua-5.4.1\src" pb.c "C:\lua-5.4.1\
 
 LIBSODIUM
 --------
-1. Берём исходники тут : [https://github.com/zeromq/libzmq](https://github.com/jedisct1/libsodium)
+1. Берём исходники тут : https://github.com/jedisct1/libsodium
 2. Компилируем solution в Visual Studio
