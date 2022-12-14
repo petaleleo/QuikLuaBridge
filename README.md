@@ -18,6 +18,7 @@ lua.dll
 lua.lib
 lzmq.dll
 pb.dll
+libzmq.dll
 
 LUA
 --------
@@ -43,7 +44,11 @@ del *.o
 LIBZMQ
 --------
 1. Берём исходники тут : https://github.com/zeromq/libzmq
-2. 
+2. Понадобится CMake: https://github.com/Kitware/CMake/releases/download/v3.25.1/cmake-3.25.1-windows-x86_64.msi
+3. В CMake генерируем sln (solution) для VisualStudio
+4. В VisualStudio открываем sln, который будет в сгенерированной папке.
+5. Компилируем проект libzmq
+6. На выходе получим libzmq-v143-mt-gd-4_3_5.dll
 
 LUA-PROTOBUF
 --------
