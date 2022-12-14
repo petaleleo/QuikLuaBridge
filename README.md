@@ -11,6 +11,7 @@
   * [Собираем LUA](#LUA)
   * [Собираем LIBZMQ](#LIBZMQ)
   * [Собираем PB.DLL](#LUA-PROTOBUF)
+  * [Собираем libsodium.dll](#LIBSODIUM)
 
 LIBS
 --------
@@ -19,6 +20,7 @@ LIBS
 + lzmq.dll
 + pb.dll
 + libzmq.dll
++ libsodium.dll
 
 LUA
 --------
@@ -98,3 +100,8 @@ cl /O2 /LD /Fpb.dll /DLUA_BUILD_AS_DLL /I "C:\lua-5.4.1\src" pb.c "C:\lua-5.4.1\
 ```
 
 5. Полученный файл нужно скопировать в папку QUIK
+
+LIBSODIUM
+--------
+1. Берём исходники тут : [https://github.com/zeromq/libzmq](https://github.com/jedisct1/libsodium)
+2. Компилируем solution в Visual Studio
